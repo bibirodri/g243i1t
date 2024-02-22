@@ -1,3 +1,5 @@
 function aperte(){
-    alert('oii galerinha!');
+    while(true){
+    alert('oii galerinha!');  
+    }
 }
