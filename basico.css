@@ -1,0 +1,71 @@
+.btn{
+    background-color: rgb(149, 161, 161);
+    color: floralwhite;
+    text-align: center;
+    width: 80%;
+    font-size: 40px;
+}
+.conteudo{
+    text-align: center;
+}
+body{
+    background-color: rgb(148, 148, 226);
+
+}
+.barra {
+    width: 100;
+    height: 70;
+    text-align: center;
+    background-color: azure;
+}
+.desktop {
+    display: none;
+}
+.tablet { 
+    display: none;
+}
+ .mobile {
+    font-size: 50px;
+    color: aquamarine;
+ }
+ @media (min-width:800px){
+    .barra{
+        background-color: aqua;
+        height: 80px;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        font-size: 55px;
+        color: rgb(14, 13, 13);
+    }
+    .btn{
+        margin-top: 0;
+        width: 70px;
+        font-size: 16px;
+    }
+    .conteudo{
+        text-align: right;
+    }
+ }
+
+ @media (min-width:1228px){
+    .barra{
+        background-color: rgb(210, 193, 226);
+        height: 120px;
+    }
+    .tablet{
+         display: none;
+    }
+    .desktop{
+        display: inline;
+        font-size: 70px;
+        color: cadetblue;
+    }
+    .conteudo{
+        text-align: left;
+    }
+
+ }
+
