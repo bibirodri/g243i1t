@@ -1,92 +1,93 @@
-.btn{
-    background-color: rgb(149, 161, 161);
-    color: floralwhite;
+.botao{
+
+    background-color: rgb(86, 70, 177);
+    color: white;
     text-align: center;
     width: 100%;
     font-size: 26px;
     padding-top: 4px;
     padding-bottom: 4px;
 }
-.abas{
+.aba{
     width: 100%;
     height: 400px;
+
 }
 #aba1{
-    background-color: white;
+    background-color: rgb(42, 91, 165);
 }
 #aba2{
-    background-color: rgb(221, 174, 233);
+    background-color: rgb(62, 119, 204);
 }
 #aba3{
-    background-color: rgb(177, 223, 235);
+    background-color: rgb(79, 131, 209);
 }
 #aba4{
-    background-color: rgb(187, 196, 236);
+    background-color: rgb(123, 165, 228);
 }
 #aba5{
-    background-color: rgb(222, 178, 226);
+    background-color: rgb(149, 185, 238);
 }
 .conteudo{
     text-align: center;
 }
-body{
-    background-color: rgb(148, 148, 226);
-
+body {
+    background-color: rgb(130, 205, 255);
 }
 .barra {
     width: 100%;
     height: 70px;
     text-align: center;
-    background-color: azure;
+    background-color: rgb(94, 116, 214);
 }
 .desktop {
     display: none;
 }
-.tablet { 
+.tablet {
     display: none;
 }
- .mobile {
+.mobile {
     font-size: 50px;
-    color: aquamarine;
- }
- @media (min-width:800px){
+    color: rgb(23, 23, 126);
+}
+
+@media (min-width:800px) {
     .barra{
-        background-color: aqua;
+        background-color: rgb(201, 120, 255);
         height: 80px;
     }
     .mobile{
         display: none;
     }
-    .tablet{
+    .tablet {
         font-size: 55px;
         display: inline;
-        color: rgb(14, 13, 13);
+        color: rgb(104, 58, 148);
     }
-    .btn{
+    .botao{
         margin-top: 0%;
         width: 19.5%;
-       
     }
     .conteudo{
         text-align: right;
     }
- }
-
- @media (min-width:1228px){
+}
+    
+@media (min-width:1228px) {
     .barra{
-        background-color: rgb(210, 193, 226);
+        background-color: rgb(69, 171, 212);
         height: 120px;
     }
-    .tablet{
-         display: none;
+    .tablet {
+        display: none;
     }
-    .desktop{
-        display: inline;
+    .desktop {
         font-size: 70px;
-        color: cadetblue;
+        display: inline;
+        color: rgb(58, 59, 148);
     }
     .conteudo{
         text-align: left;
     }
 
- }
+}
